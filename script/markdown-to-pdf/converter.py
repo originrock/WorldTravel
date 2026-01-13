@@ -9,6 +9,7 @@ Supports:
 - Batch & Merge Processing
 """
 
+import io
 import os
 import re
 import sys
@@ -17,10 +18,27 @@ import tempfile
 import argparse
 import subprocess
 import json
+import markdown
+
+from bs4 import BeautifulSoup
 from pathlib import Path
 from typing import List, Optional, Dict
 from datetime import datetime
-import io
+
+
+# ==========================================
+# 默认配置 (Default Configuration)
+# ==========================================
+# 您可以在这里预设输入和输出，以便在不带参数时直接运行。
+# 支持文件路径字符串或 Path 对象。
+
+DEFAULT_INPUT = "/Users/originrock/dev/MagicBox_19/.claude/skills/markdown-to-pdf/test_document.md"   # 示例: "test_document.md" 或 "doc/folder"
+DEFAULT_OUTPUT = "/Users/originrock/dev/MagicBox_19/.claude/skills/markdown-to-pdf/test_document.pdf"  # 示例: "output.pdf" 或 "output_dir"
+DEFAULT_STYLE = 'odoo_doc'
+DEFAULT_LANDSCAPE = False  # 是否默认横版 (True 为横版, False 为竖版)
+DEFAULT_HEADER = ""  # 留空则从文件名自动生成，如 "My Project Documentation"
+
+# ==========================================
 
 # Try importing Matplotlib for Math rendering
 try:
@@ -32,8 +50,7 @@ except ImportError:
     MATPLOTLIB_AVAILABLE = False
     print("[WARN] Matplotlib not found. Math formulas will be rendered as text.")
 
-import markdown
-from bs4 import BeautifulSoup
+
 
 # --- macOS Library Path Fix (Self-Healing) ---
 # 解决在 PyCharm 或其他 IDE 中运行无法找到 Homebrew 安装库的问题
@@ -56,20 +73,6 @@ except OSError as e:
     print("2. 如果是在 PyCharm 中运行，请在 Run Configuration -> Environment Variables 中添加上述变量。")
     print("\n安装命令: brew install pango gdk-pixbuf libffi")
     sys.exit(1)
-
-# ==========================================
-# 默认配置 (Default Configuration)
-# ==========================================
-# 您可以在这里预设输入和输出，以便在不带参数时直接运行。
-# 支持文件路径字符串或 Path 对象。
-
-DEFAULT_INPUT = "/Users/originrock/dev/MagicBox_19/.claude/skills/markdown-to-pdf/test_document.md"   # 示例: "test_document.md" 或 "doc/folder"
-DEFAULT_OUTPUT = "/Users/originrock/dev/MagicBox_19/.claude/skills/markdown-to-pdf/test_document.pdf"  # 示例: "output.pdf" 或 "output_dir"
-DEFAULT_STYLE = 'odoo_doc'
-DEFAULT_LANDSCAPE = False  # 是否默认横版 (True 为横版, False 为竖版)
-DEFAULT_HEADER = ""  # 留空则从文件名自动生成，如 "My Project Documentation"
-
-# ==========================================
 
 class MarkdownPipeline:
     """Handles Markdown to HTML conversion with advanced extensions."""

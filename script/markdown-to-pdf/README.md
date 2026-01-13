@@ -9,6 +9,7 @@ A professional-grade tool to convert Markdown files to beautifully styled PDFs. 
 - ✅ **Code Highlighting**: Professional syntax highlighting via `Pygments`.
 - ✅ **Premium Styling**: High-quality PDF generation using `WeasyPrint` with full CSS support.
 - ✅ **Flexible Workflow**: Supports single file, batch processing, and merging multiple files.
+- ✅ **Directory Scripts**: Batch conversion, merge, and pipeline workflows via dedicated scripts.
 
 ---
 
@@ -20,6 +21,11 @@ Activate your virtual environment (e.g., Odoo 19 environment) and install the co
 ```bash
 source /Users/originrock/dev/Venv/Box_19/bin/activate
 pip install markdown pymdown-extensions pygments weasyprint beautifulsoup4 matplotlib
+```
+
+Optional for PDF directory merging:
+```bash
+pip install pikepdf pypdf
 ```
 
 ### 2. Mermaid CLI (Optional)
@@ -66,6 +72,18 @@ python converter.py --batch -i ./docs -o ./pdf_out --style technical
 
 # Merge files into one PDF
 python converter.py --merge -i file1.md file2.md -o combined.pdf
+```
+
+### 4. Directory Scripts
+```bash
+# Batch convert all Markdown files in a directory
+python batch_process.py -i ./docs -o ./pdf_out --style odoo_doc
+
+# Merge all PDFs in a directory into one file
+python merge.py -i ./pdf_out -o ./combined/merged.pdf
+
+# Batch -> merge -> cleanup
+python pipeline.py -i ./docs -o ./pdf_out --auto-merge --auto-delete
 ```
 
 ---
