@@ -5,16 +5,16 @@
 ---
 ## 计划文件目录
 
-[行程安排](1_itinerary.md)
-[签证及法律风险规避](6_visa_legal.md)
-[往返交通计划](2_transportation.md)
-[旅游景点列表](3_attractions.md)
-[美食列表](4_lodging_food.md)
-[租车及住宿](7_driving_rental.md)
-[财务事项](9_cash_and_banking.md)
-[通信](10_communications.md)
-[预算](5_budget.md)
-[注意事项](8_notes.md)
+[行程安排](5_itinerary.md)
+[签证及法律风险规避](0_visa_legal.md)
+[往返交通计划](2_international_transportation.md)
+[旅游景点列表](1_attractions.md)
+[美食列表](1_lodging_food.md)
+[租车及住宿](1_local_transportation.md)
+[财务事项](0_financial_services.md)
+[通信](0_communications.md)
+[预算](6_budget.md)
+[注意事项](4_notes.md)
 
 
 ---
@@ -24,9 +24,9 @@
 ### 核心任务与活动建议：
 
 1.  **现金申报**:
-    -   请务必在抵达澳大利亚前，完成所有携带超过10,000澳元现金的申报手续。您可以通过AUSTRAC网站在线申报，或准备在飞机上/机场填写CBM-PC表格。详见`9_cash_and_banking.md`。
+    -   请务必在抵达澳大利亚前，完成所有携带超过10,000澳元现金的申报手续。您可以通过AUSTRAC网站在线申报，或准备在飞机上/机场填写CBM-PC表格。详见`0_financial_services.md`。
 2.  **存款预约**:
-    -   如果计划在银行存入大额现金并开设账户，建议提前在线进行银行账户的预申请，并预约好抵达后前往银行完成身份验证和存款的时间。详见`9_cash_and_banking.md`。
+    -   如果计划在银行存入大额现金并开设账户，建议提前在线进行银行账户的预申请，并预约好抵达后前往银行完成身份验证和存款的时间。详见`0_financial_services.md`。
 
 ---
 
@@ -39,9 +39,9 @@
 ### 抵达悉尼后的初期任务：
 
 1.  **第一天 - 办理电信卡**:
-    -   抵达悉尼机场后，前往机场内的运营商柜台或便利店，为您的中国大陆版iPhone 15购买并办理本地物理SIM卡。请确保您的手机已解锁。详见`10_communications.md`。
+    -   抵达悉尼机场后，前往机场内的运营商柜台或便利店，为您的中国大陆版iPhone 15购买并办理本地物理SIM卡。请确保您的手机已解锁。详见`0_communications.md`。
 2.  **第二天 - 存款与办理储蓄卡**:
-    -   根据您的预约，前往已预申请的银行网点，完成身份验证、存入现金并办理储蓄卡。详见`9_cash_and_banking.md`。
+    -   根据您的预约，前往已预申请的银行网点，完成身份验证、存入现金并办理储蓄卡。详见`0_financial_services.md`。
 
 ### 核心任务与活动建议：
 

@@ -1,0 +1,264 @@
+/* Technical Documentation Stylesheet - Dark Theme (Final Robust Version) */
+
+/* Page Setup */
+@page {
+    size: A4;
+    margin: 2cm;
+    background: #1e1e1e;
+
+    @top-center {
+        content: "Technical Reference";
+        font-family: 'Consolas', monospace;
+        font-size: 8pt;
+        color: #888;
+    }
+
+    @bottom-center {
+        content: counter(page);
+        font-family: 'Consolas', monospace;
+        font-size: 8pt;
+        color: #888;
+    }
+}
+
+/* Fonts */
+body {
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 10pt;
+    line-height: 1.6;
+    color: #d4d4d4;
+    background: #1e1e1e;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4 {
+    color: #4ec9b0;
+    font-weight: 700;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 24pt;
+    border-bottom: 2px solid #3c3c3c;
+    padding-bottom: 0.3em;
+}
+
+h2 {
+    font-size: 18pt;
+    color: #569cd6;
+    border-bottom: 1px solid #3c3c3c;
+    padding-bottom: 0.2em;
+}
+
+/* Code Blocks */
+pre {
+    background: #252526;
+    border: 1px solid #3c3c3c;
+    border-left: 4px solid #4ec9b0;
+    padding: 1em;
+    margin: 1.2em 0;
+}
+
+code {
+    background: #2d2d30;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    color: #ce9178;
+}
+
+pre code {
+    background: none;
+    color: #d4d4d4;
+    padding: 0;
+}
+
+/* --- Full Pygments Syntax Highlighting (Dark) --- */
+.codehilite {
+    background: #1e1e1e;
+    color: #d4d4d4;
+}
+
+.codehilite .c,
+.codehilite .c1,
+.codehilite .cm {
+    color: #6a9955;
+    font-style: italic
+}
+
+.codehilite .k,
+.codehilite .kd,
+.codehilite .kn,
+.codehilite .kp,
+.codehilite .kr {
+    color: #569cd6;
+    font-weight: bold
+}
+
+.codehilite .s,
+.codehilite .s1,
+.codehilite .s2 {
+    color: #ce9178
+}
+
+.codehilite .nf,
+.codehilite .fm {
+    color: #dcdcaa
+}
+
+.codehilite .nc,
+.codehilite .nn {
+    color: #4ec9b0
+}
+
+.codehilite .nb {
+    color: #dcdcaa
+}
+
+.codehilite .nt {
+    color: #569cd6
+}
+
+.codehilite .no {
+    color: #4fc1ff
+}
+
+.codehilite .nd {
+    color: #dcdcaa
+}
+
+.codehilite .vi,
+.codehilite .nv {
+    color: #9cdcfe
+}
+
+.codehilite .mf,
+.codehilite .mi,
+.codehilite .mh {
+    color: #b5cea8
+}
+
+.codehilite .ow {
+    color: #569cd6;
+    font-weight: bold
+}
+
+/* --- Math --- */
+.arithmatex {
+    display: block;
+    text-align: center;
+    margin: 2em 0;
+    font-size: 1.25em;
+    color: #dcdcaa;
+    padding: 1em;
+    background: #252526;
+}
+
+svg.math-block {
+    display: block;
+    margin: 1.5em auto;
+    height: auto;
+    max-width: 100%;
+    fill: #dcdcaa;
+}
+
+svg.math-inline {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 4px;
+    fill: #dcdcaa;
+}
+
+/* --- GitHub Alerts (Dark) --- */
+.alert {
+    padding: 1em 1.2em;
+    margin: 1.5em 0;
+    border-left: 5px solid;
+    border-radius: 4px;
+    background: #252526;
+}
+
+.alert-title {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.alert-note {
+    border-color: #3794ff;
+    color: #9cdcfe;
+}
+
+.alert-tip {
+    border-color: #4ec9b0;
+    color: #4ec9b0;
+}
+
+.alert-important {
+    border-color: #c586c0;
+    color: #c586c0;
+}
+
+.alert-warning {
+    border-color: #dcdcaa;
+    color: #dcdcaa;
+}
+
+.alert-caution {
+    border-color: #f48771;
+    color: #f48771;
+}
+
+/* --- Mermaid FIX (Force visibility in Dark Theme) --- */
+.mermaid-container svg {
+    display: block;
+    margin: 2em auto;
+    max-width: 95%;
+    background: #fdfdfd;
+    /* Keep white background for graph readability in dark theme */
+    padding: 1em;
+    border-radius: 8px;
+}
+
+svg text,
+.nodeLabel,
+.label,
+.edgeLabel,
+tspan {
+    fill: #333 !important;
+    color: #333 !important;
+    font-family: 'Consolas', monospace !important;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+    background: #252526;
+}
+
+th {
+    padding: 0.7em;
+    text-align: left;
+    border-bottom: 2px solid #3c3c3c;
+    color: #4ec9b0;
+}
+
+td {
+    padding: 0.7em;
+    border-bottom: 1px solid #3c3c3c;
+}
+
+tbody tr:nth-child(even) {
+    background: #2d2d30;
+}
+
+.page-break {
+    page-break-after: always;
+}

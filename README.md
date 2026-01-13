@@ -14,15 +14,24 @@
 -   **`destinations/`**: 存放每个具体目的地的详细旅行计划。
     -   每个目的地（例如：`Japan/`，`Italy/`）都有一个独立的文件夹。
     -   每个目的地文件夹内包含以下详细文件：
+    - 
         -   `README.md`: 该目的地总览。
-        -   `1_itinerary.md`: 详细行程安排。
-        -   `2_transportation.md`: 往返交通及当地交通方案。
-        -   `3_attractions.md`: 景点与特色旅游项目。
-        -   `4_lodging_food.md`: 衣食住行（住宿、餐饮）。
-        -   `5_budget.md`: 该目的地预算明细。
-        -   `6_visa_legal.md`: 签证与当地法规。
-        -   `7_driving_rental.md`: 驾照换考与车辆租赁。
-        -   `8_notes.md`: 旅行注意事项。
+        -   `0_visa_legal.md`: 签证与当地法规。
+
+        -   `1_attractions.md`: 景点与特色旅游项目。
+        -   `1_lodging_food.md`: 衣食住行（住宿、餐饮）。
+        -   `1_local_transportation.md`: 当地交通出行：1.如果适合自驾，驾照换考与车辆租赁；2.如果不适合自驾：公共交通或者出租车。
+
+        -   `2_international_transportation.md`: 往返交通及当地交通方案。
+        
+
+        -   `4_notes.md`: 旅行注意事项。
+
+        -   `5_itinerary.md`: 详细行程安排。
+        -   `6_budget.md`: 该目的地预算明细。
+
+
+
 
 ## 如何使用
 

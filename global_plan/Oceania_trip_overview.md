@@ -33,7 +33,6 @@
 | 4月15日 - 4月16日 | 布里斯班 → 悉尼     | 2天      | 自驾 (约950km)            | 10-12小时     | 回程、拜伦湾停留                           |
 
 
-
 #### **1. 悉尼长居与准备 (45天)**
 
 *   **时间**: 约 2026年2月1日 - 2026年3月17日 (详情请参考上方时间线概览表)
@@ -45,6 +44,20 @@
 *   **时间**: 约 2026年3月18日 - 2026年4月16日 (详情请参考上方时间线概览表)
 *   **形式**: 一场史诗级的公路旅行，路线覆盖澳大利亚东南部、红土中心及昆士兰海岸。
 *   **主要体验**: 从墨尔本的文化气息到大洋路的壮丽海岸，从阿德莱德的美酒美食到乌鲁鲁的红土圣地，再到昆士兰的热带风情和悉尼的都市活力。
+
+
+[0_visa_legal.md](../destinations/Australia/0_visa_legal.md)
+[1_attractions.md](../destinations/Australia/1_attractions.md)
+[1_business_inspection.md](../destinations/Australia/1_business_inspection.md)
+[1_lodging_food.md](../destinations/Australia/1_lodging_food.md)
+[2_international_transportation.md](../destinations/Australia/2_international_transportation.md)
+[1_local_transportation.md](../destinations/Australia/1_local_transportation.md)
+[3_projects_providers.md](../destinations/Australia/3_service_providers.md)
+[4_notes.md](../destinations/Australia/4_notes.md)
+[5_itinerary.md](../destinations/Australia/5_itinerary.md)
+[6_budget.md](../destinations/Australia/6_budget.md)
+[0_financial_services.md](../destinations/Australia/0_financial_services.md)
+[0_communications.md](../destinations/Australia/0_communications.md)
 
 
 ### **第二阶段：新西兰**
@@ -73,6 +86,15 @@
 *   **形式**: 跨越南北岛的精华深度游，以自驾为主，结合境内航班。
 *   **主要体验**: 北岛的霍比特村和地热奇观，南岛的冰川、峡湾、雪山、湖泊和极限运动，体验新西兰多样而纯净的自然美景。
 
+
+[0_visa_legal.md](../destinations/New_Zealand/0_visa_legal.md)
+[1_attractions.md](../destinations/New_Zealand/1_attractions.md)
+[1_lodging_food.md](../destinations/New_Zealand/1_lodging_food.md)
+[2_international_transportation.md](../destinations/New_Zealand/2_international_transportation.md)
+[1_local_transportation.md](../destinations/New_Zealand/1_local_transportation.md)
+[4_notes.md](../destinations/New_Zealand/4_notes.md)
+[5_itinerary.md](../destinations/New_Zealand/5_itinerary.md)
+[6_budget.md](../destinations/New_Zealand/6_budget.md)
 ---
 
 ## 整体旅行预算概览 (总计90天)

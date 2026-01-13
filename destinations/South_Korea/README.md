@@ -5,28 +5,28 @@
 ---
 ## 计划文件目录
 
-- [详细行程](1_itinerary.md)
-- [交通方案](2_transportation.md)
-- [景点列表](3_attractions.md)
-- [住宿与美食](4_lodging_food.md)
-- [预算明细](5_budget.md)
-- [签证与法律](6_visa_legal.md)
-- [驾驶与租车](7_driving_rental.md)
-- [行前笔记](8_notes.md)
-- [现金与银行](9_cash_and_banking.md)
-- [通信与网络](10_communications.md)
+- [详细行程](5_itinerary.md)
+- [交通方案](2_international_transportation.md)
+- [景点列表](1_attractions.md)
+- [住宿与美食](1_lodging_food.md)
+- [预算明细](6_budget.md)
+- [签证与法律](0_visa_legal.md)
+- [驾驶与租车](1_local_transportation.md)
+- [行前笔记](4_notes.md)
+- [现金与银行](0_financial_services.md)
+- [通信与网络](0_communications.md)
 
 ---
 
 ## 前置准备阶段 (抵达韩国前)
 
 1.  **签证**:
-    -   查询并办理合适的韩国签证。对于中国公民，济州岛提供免签入境，但访问首尔和釜山需要提前办理签证。详见 `6_visa_legal.md`。
+    -   查询并办理合适的韩国签证。对于中国公民，济州岛提供免签入境，但访问首尔和釜山需要提前办理签证。详见 `0_visa_legal.md`。
 2.  **通信**:
-    -   根据个人需求，提前在线预订eSIM或便携Wi-Fi。这是确保落地后即刻能上网的最便捷方式。详见 `10_communications.md`。
+    -   根据个人需求，提前在线预订eSIM或便携Wi-Fi。这是确保落地后即刻能上网的最便捷方式。详见 `0_communications.md`。
 3.  **交通**:
     -   预订从日本到首尔的国际机票。
-    -   如果计划在济州岛自驾，请确保已准备好“国际驾驶许可证(IDP)”和本国驾照原件。详见 `7_driving_rental.md`。
+    -   如果计划在济州岛自驾，请确保已准备好“国际驾驶许可证(IDP)”和本国驾照原件。详见 `1_local_transportation.md`。
 
 ---
 

@@ -21,7 +21,7 @@
 | 15-21 | 2028年4月15日 - 4月21日 | 大阪 (Osaka) | 美食之都、环球影城、周边游 | 火车 | 30分钟 |
 | 22-30 | 2028年4月22日 - 4月30日 | 北海道 (Hokkaido) | 自然风光、温泉、滑雪（视季节） | 国内航班 | 2小时 |
 
-### **第二部分：韩国之旅 (30天)**
+### **第二部分：韩国之旅 (20-30天)**
 
 | 日期 (Day #) | 起止日期 (Start-End Date) | 地点 (Location) | 主要活动 (Key Activities) | 交通方式 (Transportation) | 耗时 (Travel Time) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -29,6 +29,17 @@
 | 11-17 | 2028年5月11日 - 5月17日 | 釜山 (Busan) | 海滨城市、海鲜市场、电影节 | KTX高铁 | 3小时 |
 | 18-25 | 2028年5月18日 - 5月25日 | 济州岛 (Jeju Island) | 自然风光、火山地貌、度假 | 国内航班 | 1小时 |
 | 26-30 | 2028年5月26日 - 5月30日 | 缓冲/离境 | - | 国际航班 | - |
+
+[签证事项](../destinations/South_Korea/0_visa_legal.md)
+[旅游景点](../destinations/South_Korea/1_attractions.md)
+[特色美食](../destinations/South_Korea/1_lodging_food.md)
+[国际交通](../destinations/South_Korea/2_international_transportation.md)
+[本地交通](../destinations/South_Korea/1_local_transportation.md)
+[注意事项](../destinations/South_Korea/4_notes.md)
+[行程计划](../destinations/South_Korea/5_itinerary.md)
+[开支预算](../destinations/South_Korea/6_budget.md)
+[银行业务](../destinations/South_Korea/0_financial_services.md)
+[当地通讯](../destinations/South_Korea/0_communications.md)
 
 ---
 

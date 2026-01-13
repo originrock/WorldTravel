@@ -1,0 +1,376 @@
+/* Odoo 19 Documentation Stylesheet - Premium Purple Theme (V1.2 Final) */
+
+/* Page Setup */
+@page {
+    size: A4;
+    margin: 2.5cm 1.5cm;
+
+    @top-right {
+        content: "Odoo 19 Documentation";
+        font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+        font-size: 8pt;
+        color: #714B67;
+        opacity: 0.6;
+    }
+
+    @bottom-center {
+        content: "Page " counter(page);
+        font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+        font-size: 8pt;
+        color: #714B67;
+        opacity: 0.6;
+    }
+}
+
+/* Base Elements */
+body {
+    font-family: 'Inter', 'Segoe UI', Roboto, Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.65;
+    color: #333333;
+    background: white;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4 {
+    color: #714B67;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-top: 1.8em;
+    margin-bottom: 0.6em;
+}
+
+h1 {
+    font-size: 28pt;
+    text-align: center;
+    border-bottom: 2px solid #714B67;
+    padding-bottom: 0.4em;
+}
+
+h2 {
+    font-size: 20pt;
+    border-left: 6px solid #875A7B;
+    padding-left: 0.6em;
+}
+
+h3 {
+    font-size: 16pt;
+    color: #00a09d;
+}
+
+/* Code Blocks & Highlighting */
+pre {
+    background: #fdfdfd;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    padding: 1.2em;
+    margin: 1.5em 0;
+    font-family: 'JetBrains Mono', 'Consolas', monospace;
+    font-size: 10pt;
+    page-break-inside: avoid;
+}
+
+code {
+    background: #f3f3f3;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-family: 'JetBrains Mono', 'Consolas', monospace;
+    font-size: 0.9em;
+    color: #d63384;
+}
+
+pre code {
+    background: none;
+    padding: 0;
+    color: #24292e;
+}
+
+/* --- Comprehensive Pygments Theme (GitHub-ish) --- */
+/* Supports both .codehilite (markdown codehilite) and .highlight (pymdownx.superfences) */
+.codehilite .c,
+.codehilite .c1,
+.codehilite .cm,
+.highlight .c,
+.highlight .c1,
+.highlight .cm {
+    color: #6a737d;
+    font-style: italic;
+}
+
+/* Comment */
+.codehilite .k,
+.codehilite .kd,
+.codehilite .kn,
+.codehilite .kp,
+.codehilite .kr,
+.highlight .k,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr {
+    color: #d73a49;
+    font-weight: bold;
+}
+
+/* Keyword */
+.codehilite .s,
+.codehilite .s1,
+.codehilite .s2,
+.highlight .s,
+.highlight .s1,
+.highlight .s2 {
+    color: #032f62;
+}
+
+/* String */
+.codehilite .nf,
+.codehilite .fm,
+.highlight .nf,
+.highlight .fm {
+    color: #6f42c1;
+}
+
+/* Function */
+.codehilite .nc,
+.codehilite .nn,
+.highlight .nc,
+.highlight .nn {
+    color: #6f42c1;
+    font-weight: bold;
+}
+
+/* Class */
+.codehilite .nb,
+.highlight .nb {
+    color: #005cc5;
+}
+
+/* Builtin */
+.codehilite .nt,
+.highlight .nt {
+    color: #22863a;
+}
+
+/* Tag */
+.codehilite .na,
+.highlight .na {
+    color: #6f42c1;
+}
+
+/* Attribute */
+.codehilite .no,
+.highlight .no {
+    color: #005cc5;
+}
+
+/* Constant */
+.codehilite .nd,
+.highlight .nd {
+    color: #6f42c1;
+}
+
+/* Decorator */
+.codehilite .ni,
+.highlight .ni {
+    color: #24292e;
+}
+
+/* Entity */
+.codehilite .vi,
+.codehilite .nv,
+.highlight .vi,
+.highlight .nv {
+    color: #e36209;
+}
+
+/* Variable */
+.codehilite .mf,
+.codehilite .mi,
+.codehilite .mh,
+.highlight .mf,
+.highlight .mi,
+.highlight .mh {
+    color: #005cc5;
+}
+
+/* Number */
+.codehilite .ow,
+.highlight .ow {
+    color: #d73a49;
+    font-weight: bold;
+}
+
+/* Operator.Word */
+.codehilite .bp,
+.highlight .bp {
+    color: #005cc5;
+}
+
+/* Builtin.Pseudo (self) */
+.codehilite .o,
+.highlight .o {
+    color: #d73a49;
+}
+
+/* Operator */
+.codehilite .p,
+.highlight .p {
+    color: #24292e;
+}
+
+/* Punctuation */
+.codehilite .n,
+.highlight .n {
+    color: #24292e;
+}
+
+/* Name */
+.codehilite .w,
+.highlight .w {
+    color: #24292e;
+}
+
+/* Whitespace */
+
+/* --- Math & Formulas --- */
+.arithmatex {
+    display: block;
+    text-align: center;
+    margin: 2.5em auto;
+    font-size: 1.4em;
+    padding: 1.2em;
+    background: #fcfcfc;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+    color: #444;
+}
+
+svg.math-block {
+    display: block;
+    margin: 1.5em auto;
+    height: auto;
+    max-width: 100%;
+}
+
+svg.math-inline {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 4px;
+    position: relative;
+    top: 0px;
+}
+
+/* --- GitHub Alerts --- */
+.alert {
+    padding: 1.2em;
+    margin: 1.8em 0;
+    border-left: 5px solid;
+    border-radius: 6px;
+    page-break-inside: avoid;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.alert-title {
+    font-weight: 800;
+    margin-bottom: 0.6em;
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.alert p {
+    margin: 0.5em 0;
+    line-height: 1.6;
+}
+
+.alert-note {
+    background: #f0f7ff;
+    border-color: #2196f3;
+    color: #0d47a1;
+}
+
+.alert-tip {
+    background: #f9fdf5;
+    border-color: #8bc34a;
+    color: #33691e;
+}
+
+.alert-important {
+    background: #faf5fc;
+    border-color: #9c27b0;
+    color: #4a148c;
+}
+
+.alert-warning {
+    background: #fffaf5;
+    border-color: #ff9800;
+    color: #e65100;
+}
+
+.alert-caution {
+    background: #fff5f5;
+    border-color: #f44336;
+    color: #b71c1c;
+}
+
+/* --- Mermaid FIXES --- */
+.mermaid-container svg {
+    display: block;
+    margin: 2.5em auto;
+    max-width: 95%;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Hard-fix for invisible text inside SVGs */
+svg text,
+svg tspan,
+.nodeLabel,
+.label {
+    font-family: Arial, sans-serif !important;
+}
+
+/* Tables & Lists */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1.5em 0;
+    font-size: 10pt;
+}
+
+thead {
+    background: #714B67;
+    color: white;
+}
+
+th,
+td {
+    padding: 0.8em;
+    border: 1px solid #e0e0e0;
+}
+
+tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Utilities */
+.page-break {
+    page-break-after: always;
+}
+
+.toc {
+    border: 2px solid #714B67;
+    padding: 2em;
+    border-radius: 8px;
+    margin: 2em 0;
+}
+
+.toc a {
+    color: #714B67;
+    text-decoration: none;
+    font-weight: 600;
+}
