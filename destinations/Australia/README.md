@@ -39,6 +39,7 @@
 * [**特色项目全解 (1_attractions.md)**](1_attractions.md): 射击、滑翔伞、潜水、滑板、冲浪、摄影。
 * [**舌尖上的澳洲 (1_lodging_food.md)**](1_lodging_food.md): 悉尼/布里斯班/乌鲁鲁顶级食府清单。
 * [**服务商推荐 (3_projects_providers.md)**](3_projects_providers.md): 行业顶级运营商（Mike Ball, Tali Wiru 等）。
+* [**商业与市场分析 (1_business_market_analysis.md)**](1_business_market_analysis.md): 宏观经济测算、支柱产业调研、2025 消费趋势。
 
 ### 🗓️ 核心执行 (Final Execution)
 
