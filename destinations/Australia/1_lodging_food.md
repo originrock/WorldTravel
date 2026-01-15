@@ -1,3 +1,5 @@
+**状态**: 已完成
+
 # 澳大利亚美食指南
 
 *(注：住宿相关详细信息已迁移至 [1_accommodation.md](file:///Users/originrock/dev/World_Travel/destinations/Australia/1_accommodation.md)。本文件专注于全澳美食探索。)*

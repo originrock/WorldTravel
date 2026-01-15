@@ -10,8 +10,8 @@ from pathlib import Path
 
 SKILL_DIR = Path(__file__).resolve().parent
 
-DEFAULT_INPUT_DIR = "/Users/originrock/dev/World_Travel/global_plan"
-DEFAULT_INTERMEDIATE_DIR = "/Users/originrock/dev/World_Travel/pdf/intermediate/global_plan"  # User can set this in the script
+DEFAULT_INPUT_DIR = "/Users/originrock/dev/WorldTravel/destinations/New_Zealand"
+DEFAULT_INTERMEDIATE_DIR = "/Users/originrock/dev/WorldTravel/pdf/intermediate/New_Zealand"  # User can set this in the script
 DEFAULT_OUTPUT_DIR = "/Users/originrock/dev/World_Travel/pdf"
 DEFAULT_MERGED_NAME = "global_plan.pdf"
 

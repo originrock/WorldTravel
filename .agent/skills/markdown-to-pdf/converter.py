@@ -32,8 +32,8 @@ from datetime import datetime
 # 您可以在这里预设输入和输出，以便在不带参数时直接运行。
 # 支持文件路径字符串或 Path 对象。
 
-DEFAULT_INPUT = "/Users/originrock/dev/MagicBox_19/.claude/skills/markdown-to-pdf/test_document.md"   # 示例: "test_document.md" 或 "doc/folder"
-DEFAULT_OUTPUT = "/Users/originrock/dev/MagicBox_19/.claude/skills/markdown-to-pdf/test_document.pdf"  # 示例: "output.pdf" 或 "output_dir"
+DEFAULT_INPUT = "/Users/originrock/dev/WorldTravel/global_plan/Oceania_trip_overview.md"   # 示例: "test_document.md" 或 "doc/folder"
+DEFAULT_OUTPUT = "/Users/originrock/dev/WorldTravel/pdf"  # 示例: "output.pdf" 或 "output_dir"
 DEFAULT_STYLE = 'odoo_doc'
 DEFAULT_LANDSCAPE = False  # 是否默认横版 (True 为横版, False 为竖版)
 DEFAULT_HEADER_LEFT = "World_Travel"
@@ -523,6 +523,13 @@ class Processor:
         self.engine = PDFEngine()
 
     def process(self, input_path: Path, output_path: Path, theme: str = 'default', **kwargs):
+        # Resolve output path if it's a directory
+        if output_path.is_dir():
+            output_path = output_path / input_path.with_suffix('.pdf').name
+        
+        # Ensure parent directory exists
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+
         print(f"Processing {input_path.name}...")
         md_text = input_path.read_text(encoding='utf-8')
         
@@ -561,6 +568,13 @@ class Processor:
                 print(f"Error processing {f}: {e}")
 
     def merge(self, input_paths: List[Path], output_path: Path, theme: str = 'default', **kwargs):
+        # Resolve output path if it's a directory
+        if output_path.is_dir():
+            output_path = output_path / "merged.pdf"
+            
+        # Ensure parent directory exists
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+
         print(f"Merging {len(input_paths)} files into {output_path.name}...")
         combined_body = []
         for i, p in enumerate(input_paths):

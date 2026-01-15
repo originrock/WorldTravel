@@ -15,7 +15,7 @@ if str(SKILL_DIR) not in sys.path:
 from converter import Processor, DEFAULT_STYLE, DEFAULT_LANDSCAPE  # noqa: E402
 
 DEFAULT_INPUT_DIR = "/Users/originrock/dev/World_Travel/destinations/Australia"
-DEFAULT_OUTPUT_DIR = "/Users/originrock/dev/World_Travel/destinations/Australia"
+DEFAULT_OUTPUT_DIR = "/Users/originrock/dev/WorldTravel/pdf/intermediate/Australia"
 DEFAULT_INTERMEDIATE_DIR = None  # User can set this in the script
 DEFAULT_PATTERN = "*.md"
 DEFAULT_RECURSIVE = True

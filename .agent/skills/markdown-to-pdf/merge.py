@@ -11,8 +11,8 @@ from typing import List, Optional, Tuple
 SKILL_DIR = Path(__file__).resolve().parent
 
 
-DEFAULT_INPUT_DIR = "/Users/originrock/dev/World_Travel/pdf"
-DEFAULT_OUTPUT = "/Users/originrock/dev/World_Travel/pdf"
+DEFAULT_INPUT_DIR = "/Users/originrock/dev/WorldTravel/pdf"
+DEFAULT_OUTPUT = "/Users/originrock/dev/WorldTravel/pdf"
 DEFAULT_OUTPUT_NAME = "Oceania_Trip_Plan.pdf"
 DEFAULT_PATTERN = "*.pdf"
 
